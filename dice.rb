@@ -2,6 +2,8 @@
 
 require "sinatra"
 require "sinatra/reloader" # so I dont have to ctrl + c everytime I make a change
+require "better_errors"#debug tool
+require "binding_of_caller"#debug tool
 
 get("/") do
   "Hello world"
