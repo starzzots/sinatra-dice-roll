@@ -6,7 +6,7 @@ require "better_errors"#debug tool
 require "binding_of_caller"#debug tool
 
 get("/") do
-  "Hello world"
+  erb(:testing)
 end
 
 get("/zebra") do
